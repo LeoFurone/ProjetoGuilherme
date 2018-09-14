@@ -7,16 +7,21 @@ body, html {
 }
 
 a {
+	font-size: 20px;
 	color: #fff;
 	text-decoration: none;
+}
+
+a#descobrir{
+	font-size: 30px;
 }
 
 a:hover {
 	color: #255;
 	transition: 0.8s;
 }
-/*----------------NAV---------------*/
 
+/*----------------NAV---------------*/
 .navbar {
 	position: fixed;
 	min-height: 50px;
@@ -40,15 +45,10 @@ a:hover {
 	list-style: none;
 }
 
-.navbar ul li{
-	font-size: 18px;
-	display: inline;
-}
-
 .navbar ul li a {
 	float: right;
-	display: inline-block;
-
+	display: inline;
+	padding-right: 10px;
 }
 
 a#logo{
@@ -97,7 +97,6 @@ a#logo{
 
 .mid h2 {
 	font-size: 20px;
-
 }
 
 .mid p {
