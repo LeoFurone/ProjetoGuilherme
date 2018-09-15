@@ -1,12 +1,23 @@
 /*----------------GERAL---------------*/
+@font-face {
+	font-family: 'cs_regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url(../_font/cs_regular.ttf);
+}
+
 body, html {
 	background: #000;
 	background-size: 100%;
-	font-family: Blippo, fantasy;
+	/*font-family: 'Libre Barcode 128 Text', cursive;*/
+	font-family: Arial;
 	font-weight: 300;
+	width: 100% !important;
+	height: 100% !important;
 }
 
 a {
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 	color: #fff;
 	text-decoration: none;
@@ -79,6 +90,7 @@ a#logo{
 }
 
 .top p {
+	font-family: 'Ubuntu', sans-serif;
 	color: #fff;
 	font-size: 32px;
 	font-weight: 300;
@@ -88,10 +100,11 @@ a#logo{
 
 /*----------------MID---------------*/
 .mid {
+	font-family: 'Ubuntu', sans-serif;
 	color: #fff;
-	padding-left: 32px;
-	padding-top: 15%;
-	padding-bottom: 15%;
+	/*padding-left: 2%;
+	/*padding-top: 15%;
+	padding-bottom: 15%;*/
 	width:100%;
 	height:100%;
 }
@@ -111,3 +124,22 @@ img#mid{
 	height:80%; 
 	width:30%;
 }
+
+div#back {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	background: #444 url(../_img/od.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+div#about {
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-bottom: 5%;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	width:50%;
+	height:50%;
+}
+

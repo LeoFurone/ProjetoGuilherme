@@ -1,0 +1,41 @@
+body, html {
+	font-family: 'Arial', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	font-weight: 300;
+	width: 100% !important;
+	height: 100% !important;
+}
+ul, ol {
+	padding: 0;
+	list-style: none;
+}
+/* Navigation */
+#menu {
+	/*padding: 1%;*/
+	transition: all 0.8s;
+}
+
+.navbar-header {
+	padding: 1%;
+}
+
+.navbar-right{
+	float: right;
+}
+
+.navbar-right li{
+	display: inline;
+}
+
+.navbar-right li a{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 500;
+	font-size: 15px;
+	/*padding: 5px 0;*/
+	border: 2px solid transparent;
+	letter-spacing: 0.5px;
+	margin: 10px 15px 0 15px;
+}
