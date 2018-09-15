@@ -20,7 +20,7 @@ body, html {
 }
 
 header{
-	background-image: url('../_img/img_fundo5.jpg');
+	background-image: url('../_img/teste.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -41,16 +41,23 @@ footer{
 a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
-	color: #fff;
+	color: #BDBDBD;
 	text-decoration: none;
 }
 
-a#descobrir{
-	font-size: 30px;
+.search {
+	padding-top: 5%;
 }
 
+a#descobrir{
+	padding: 2%;
+	background-color: #1C1C1C;
+	font-size: 20px;
+}
+
+
 a:hover {
-	color: #255;
+	color: #848484;
 	transition: 0.8s;
 }
 
@@ -63,8 +70,8 @@ a:hover {
 	right: 0;
 	left: 0;
 	font-weight: 500;
-	background-color: lightslategray;
-	opacity: 0.8;
+	/*background-color: lightslategray;*/
+	/*opacity: 0.8;*/
 }
 
 .navbar div {
@@ -102,7 +109,7 @@ a#logo{
 
 .top h1 {
 	color: #fff;
-	font-size: 8em;
+	font-size: 6em;
 	font-weight: 700;
 	margin: 5% auto 3% auto;
 	font-family: 'cs_regular';
