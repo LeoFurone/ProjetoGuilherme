@@ -20,7 +20,7 @@ body, html {
 }
 
 header{
-	background-image: url('../_img/teste.jpg');
+	background-image: url('../_img/img_fundo5.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -32,33 +32,27 @@ header{
 	width: 100%;
 }
 
-footer{
-	text-align: center;
-	font-size: larger;
-	height: 10%;	
-}
-
 a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
-	color: #BDBDBD;
+	color: rgb(116, 116, 116);
 	text-decoration: none;
 }
 
+
+	a#descobrir{
+		padding: 2%;
+		background-color: #1C1C1C;
+		font-size: 20px;
+	}
+
+	a:hover {
+		color: #3737a0;
+		transition: 0.8s;
+	}
+
 .search {
 	padding-top: 5%;
-}
-
-a#descobrir{
-	padding: 2%;
-	background-color: #1C1C1C;
-	font-size: 20px;
-}
-
-
-a:hover {
-	color: #848484;
-	transition: 0.8s;
 }
 
 /*----------------NAV---------------*/
@@ -70,31 +64,29 @@ a:hover {
 	right: 0;
 	left: 0;
 	font-weight: 500;
-	/*background-color: lightslategray;*/
-	/*opacity: 0.8;*/
 }
 
-.navbar div {
-	height: 50px;
-	padding: 15px;
-	line-height: 20px;
-}
+	.navbar div {
+		height: 50px;
+		padding: 15px;
+		line-height: 20px;
+	}
 
-.navbar ul {
-	text-transform: uppercase;
-	padding: 0px;
-    margin: 0px; 
-	list-style: none;
-}
+	.navbar ul {
+		text-transform: uppercase;
+		padding: 0px;
+		margin: 0px; 
+		list-style: none;
+	}
 
-.navbar ul li a {
-	float: right;
-	display: inline;
-	padding-right: 10px;
-	margin: 0;
-	right: 0%;
-	font-family: 'cs_regular';
-}
+		.navbar ul li a {
+			float: right;
+			display: inline;
+			padding-right: 10px;
+			margin: 0;
+			right: 0%;
+			font-family: 'cs_regular';
+		}
 
 a#logo{
 	float: left;
@@ -107,24 +99,24 @@ a#logo{
 	text-align: center;
 }
 
-.top h1 {
-	color: #fff;
-	font-size: 6em;
-	font-weight: 700;
-	margin: 5% auto 3% auto;
-	font-family: 'cs_regular';
-}
+	.top h1 {
+		color: #fff;
+		font-size: 6em;
+		font-weight: 700;
+		margin: 5% auto 3% auto;
+		font-family: 'cs_regular';
+	}
 
-.top p {
-	font-family: 'Ubuntu', sans-serif;
-	color: #fff;
-	font-size: 32px;
-	font-weight: 300;
-	margin-top: 10px;
-	margin-bottom: 40px;
-}
+	.top p {
+		font-family: 'Ubuntu', sans-serif;
+		color: #fff;
+		font-size: 32px;
+		font-weight: 300;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
 
-/*----------------MID---------------*/
+/*----------------Configurações MID---------------*/
 .mid {
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
@@ -135,66 +127,29 @@ a#logo{
 	height:100%;
 }
 
-.conteudo-left{
-  /*Novamente definimos a largura da div*/
-  width:30%;
-  /* altura da div */
-  height:300px;
-  /* O atributo Float é utilizado para fazermos o nosso bloco(div) literalmente flutue e se posicione onde queremos na página, quando escolhemos left, dizemos que esse bloco irá se posicionar na parte esquerda da página */
-  float:left;	
-  /* Cor de fundo da div */
-  background-image: url('../_img/pocketmito.jpg');
-  background-size: cover;
-	background-position: center;
+	.mid h2 {
+		font-size: 30px;
+		color: white;
+	}
 
-  margin-right: 10%;
-  margin-left: 10%;
-}
-.conteudo-right{
-  /*Novamente definimos a largura da div*/
-  width:45%;
-  /* altura da div */
+	.mid p {
+		font-size: 16px;
+	}
+
+.bloco-conteudo{
+  width:35%;
   height:300px;
-  /* Pode parecer meio estranho usarmos o mesmo atributo left para o bloco em que queremos posicionar na direita, mas como sabemos, o CSS é um estilo em cascata, nossa div conteúdo definimos a largura de 1000px e na conteudo-left 500px, 
-automaticamente ao definirmos o conteudo-right com 500px e à esquerda também, ele ficou à direita do conteudo-left, pois o máximo que a div filha poderá ter é 1000px, sendo 500+500=1000px */
   float:left;
-  /* Cor de fundo da div */
+  margin: 2% 2% 10% 10%;	
 }
 
-.objetivos-esquerda{
-	/*Novamente definimos a largura da div*/
-	width:30%;
-	/* altura da div */
-	height:300px;
-	/* O atributo Float é utilizado para fazermos o nosso bloco(div) literalmente flutue e se posicione onde queremos na página, quando escolhemos left, dizemos que esse bloco irá se posicionar na parte esquerda da página */
-	float:left;	
-	/* Cor de fundo da div */
-	background-image: url('../_img/metas-e-objetivos.png');
+/*Imagem de fundo entre as seções*/
+div#back {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	background: white url(../_img/img_fundo5.jpg) center no-repeat fixed;
 	background-size: cover;
-	  background-position: center;
-  
-	margin-right: 10%;
-	margin-left: 10%;
-  }
-
-div#objetivos {
-	padding-top: 5%;
-	padding-bottom: 40%;
-	font-family: 'Ubuntu', sans-serif;
-	color:black;
-	width:100%;
-	height:50%;
-}
-
-
-
-.mid h2 {
-	font-size: 30px;
-	color: white;
-}
-
-.mid p {
-	font-size: 16px;
 }
 
 img#mid{
@@ -205,13 +160,20 @@ img#mid{
 	width:30%;
 }
 
-div#back {
-	padding-top: 2%;
-	padding-bottom: 2%;
-	text-align: center;
-	background: white url(../_img/img_fundo5.jpg) center center no-repeat fixed;
+/*-----------------------------SEÇÕES-----------------------------*/
+
+/*-------------- FILIPE----------------*/
+/*Seção Objetivos*/
+#imagemObjetivos{
+	width:30%;
+	height:300px;
+	float:left;	
+	background-image: url('../_img/metas-e-objetivos.png');
 	background-size: cover;
-}
+	background-position: center;
+	margin-right: 10%;
+	margin-left: 10%;
+  }
 
 div#about {
 	padding-top: 5%;
@@ -222,26 +184,52 @@ div#about {
 	height:50%;
 }
 
-#lucas-conteudo{
-	width:45%;
+
+
+/*--------------LUCAS----------------*/
+/*BIOGRAFIA*/
+#lucasImagem{
+	width:46%;
 	height:60%;
   	float:left;	
 	background-image: url('../_img/lucas.jpeg');
 	background-size: cover;
 	background-position: center;
-	margin-top: 2%;
-	margin-right: 2%;
-	margin-left: 2%;
+	margin: 2% 2% 0 2%;
 	right: 0;
 }
 
-div#back-lucas {
+#lucasConteudo{
+	width: 46%;
+	height: 60%;
+	float: left;
+	margin: 2% 2% 0 2%;
+}
+
+div#backLucas {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align: center;
-	background: white url(../_img/pocket.jpg) center center no-repeat fixed;
+	background: white url(../_img/pocket.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 
+/*MÍDIA E ARQUIVOS*/
 
 
+
+/*--------------LEONARDO----------------*/
+
+
+/*--------------HENRIQUE----------------*/
+
+
+/*--------------RODRIGO----------------*/
+
+
+/*-----------------------------RODAPÉ-----------------------------*/
+footer{
+	text-align: center;
+	font-size: larger;
+	height: 10%;	
+}
