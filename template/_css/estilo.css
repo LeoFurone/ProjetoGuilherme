@@ -161,6 +161,32 @@ automaticamente ao definirmos o conteudo-right com 500px e à esquerda também, 
   /* Cor de fundo da div */
 }
 
+.objetivos-esquerda{
+	/*Novamente definimos a largura da div*/
+	width:30%;
+	/* altura da div */
+	height:300px;
+	/* O atributo Float é utilizado para fazermos o nosso bloco(div) literalmente flutue e se posicione onde queremos na página, quando escolhemos left, dizemos que esse bloco irá se posicionar na parte esquerda da página */
+	float:left;	
+	/* Cor de fundo da div */
+	background-image: url('../_img/metas-e-objetivos.png');
+	background-size: cover;
+	  background-position: center;
+  
+	margin-right: 10%;
+	margin-left: 10%;
+  }
+
+div#objetivos {
+	padding-top: 5%;
+	padding-bottom: 40%;
+	font-family: 'Ubuntu', sans-serif;
+	color:black;
+	width:100%;
+	height:50%;
+}
+
+
 
 .mid h2 {
 	font-size: 30px;
