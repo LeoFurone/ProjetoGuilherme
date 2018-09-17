@@ -32,6 +32,7 @@ header{
 	width: 100%;
 }
 
+
 a {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
@@ -134,6 +135,7 @@ a#logo{
 
 	.mid p {
 		font-size: 16px;
+		
 	}
 
 .bloco-conteudo{
@@ -174,6 +176,14 @@ img#mid{
 	margin-right: 10%;
 	margin-left: 10%;
   }
+
+  #conteudoObjetivos{
+	width:45%;
+	height:400px;
+	float:left;	
+	
+  }
+
 
 div#about {
 	padding-top: 5%;
