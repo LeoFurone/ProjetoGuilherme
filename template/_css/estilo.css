@@ -221,8 +221,14 @@ div#backLucas {
 	background-size: cover;
 }
 
-/*MÍDIA E ARQUIVOS*/
-
+div#imgLucas{
+	background-image: url(../_img/luc.jpg);
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	margin-right: 3%;
+	float: left;
+}
 
 
 /*--------------LEONARDO----------------*/
