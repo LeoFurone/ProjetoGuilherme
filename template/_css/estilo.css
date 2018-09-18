@@ -48,7 +48,7 @@ a {
 	}
 
 	a:hover {
-		color: #3737a0;
+		color: blue;
 		transition: 0.8s;
 	}
 
@@ -57,44 +57,67 @@ a {
 }
 
 /*----------------NAV---------------*/
-.navbar {
+
+
+.navbar{
+	width: 100%;
+	height: 35px;
+	background-color: #1C1C1C;
+	font-family: 'Ubuntu', sans-serif;
 	position: fixed;
-	min-height: 50px;	
-	max-height: 50px;
-	top: 0;
-	right: 0;
-	left: 0;
-	font-weight: 500;
-	background-color: rgba(0, 0, 0, 0.6);
+	opacity: .8;
 }
-
-	.navbar div {
-		height: 50px;
-		padding: 15px;
-		line-height: 20px;
+	
+	.navbar a:hover{
+		color: white;
 	}
 
-	.navbar ul {
-		text-transform: uppercase;
-		padding: 0px;
-		margin: 0px; 
+	.navbar ul{
 		list-style: none;
+		position: relative;
+		margin: 0;
+		padding: 0;
+		float: right;
 	}
 
-		.navbar ul li a {
-			float: right;
-			display: inline;
-			padding-right: 10px;
-			margin: 0;
-			right: 0%;
-			font-family: 'cs_regular';
-			color: #fff;
-		}
+	.navbar ul li{
+			width: 130px;
+			float: left;
+		
+			text-align: center;
+	}
 
-a#logo{
-	float: left;
-	font-size: 40px;
-}
+	.navbar a{
+			padding: 5px;
+			display: block;
+			text-decoration: none;
+			text-align: center;
+			background-color: #1C1C1C;
+			color: white;
+	}		
+
+	.navbar ul ul{
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.navbar ul li:hover ul{
+		visibility: visible;
+	}
+
+	.navbar a:hover{
+		background-color: #1C1C1C;
+		color: blue;
+	}
+
+	.navbar ul li li{
+		float: none;
+	}
+
+	ul#logo{
+		float: left;
+	}
+
 
 /*----------------TOP---------------*/
 .top {
