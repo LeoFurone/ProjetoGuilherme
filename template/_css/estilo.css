@@ -65,6 +65,7 @@ a {
 	right: 0;
 	left: 0;
 	font-weight: 500;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 	.navbar div {
@@ -87,6 +88,7 @@ a {
 			margin: 0;
 			right: 0%;
 			font-family: 'cs_regular';
+			color: #fff;
 		}
 
 a#logo{
@@ -131,7 +133,7 @@ a#logo{
 	.mid h2 {
 		font-size: 30px;
 		color: white;
-	}
+		}
 
 	.mid p {
 		font-size: 16px;
@@ -162,7 +164,7 @@ div#back {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align: center;
-	background: white url(../_img/img_fundo5.jpg) center no-repeat fixed;
+	background: white url(../_img/fundo_si.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 
@@ -227,6 +229,7 @@ div#backLucas {
 
 
 /*--------------HENRIQUE----------------*/
+
 
 
 /*--------------RODRIGO----------------*/
