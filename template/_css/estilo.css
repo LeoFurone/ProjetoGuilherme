@@ -236,13 +236,13 @@ div#about {
 /*--------------LUCAS----------------*/
 /*BIOGRAFIA*/
 
-div#backLucas {
+ div#backLucas {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align: center;
 	background: white url(../_img/img_fundo5.jpg) center no-repeat fixed;
 	background-size: cover;
-}
+} 
 
 div#imgLucas{
 	background-image: url(../_img/luc.jpg);
@@ -263,6 +263,14 @@ div#imgLucas{
 
 /*--------------RODRIGO----------------*/
 
+div#imgRodrigo{
+	background-image: url(../_img/bill.jpg);
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	margin-right: 3%;
+	float: left;
+}
 
 /*-----------------------------RODAPÉ-----------------------------*/
 footer{
