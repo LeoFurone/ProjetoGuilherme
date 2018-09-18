@@ -1,30 +1,62 @@
 body{
     margin: 6px;
-    background-color: #000000;
+    background-color:rgba(0, 0, 92,1);
+    background-image: url(template/_img/img_fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #ffffff;
+    overflow: hidden;
+
+ 
     }
 
 #rolagem{
-    overflow-y: hidden;
-   /* height: 800px; */
-    overflow-x: hidden;
+  /*  overflow-y: hidden;
+    overflow-x: hidden; */
     margin-bottom: 10px;
-    width: auto;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     overflow: hidden;
 }
 
+.foto{
+    width: 40%;
+    height: 40%;
+    overflow: hidden;
+    border-radius: 100px;
+    padding: 6%;    
+    
+}
+ 
+
+
 .caixa-miniatura{
     border: 1px solid #999;
-    width: 100px;
+    width: 5%;
     display: inline-block;
     margin-left: 2px;
     margin-right: 2px;
     padding: 0px;
+    height: 5%;
     overflow: hidden;
-    height: 57px;
+}
+
+#info_miniatura{
+    color:darkslateblue;
+    font-family: "Segoe UI";
+    text-align: center;
+    padding-bottom:5px;
+    font-weight: bold;
+}
+
+#info_miniatura:hover{
+    transition: 0.7s;
+    background-color:darkslategrey;
+    color: aliceblue;
 }
 
 #miniaturas{
@@ -33,10 +65,14 @@ body{
     bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    left: 0px;
-    right: 0px;
+    left: 13%;
+    right: 13%;
     border-top: thin solid #757575;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #000000;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgba(200,200,200,0.8);
+}
+
+#vazio{
+    padding: 100px;
 }
