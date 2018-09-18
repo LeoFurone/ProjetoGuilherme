@@ -135,14 +135,26 @@ a#logo{
 
 	.mid p {
 		font-size: 16px;
-		
+		text-align: justify;
 	}
 
+	.mid hr{
+		height: 2px;
+		width: 70px;
+		text-align: center;
+		position: relative;
+		border: 0;
+		background: blue;
+		margin-bottom: 40px;
+	}
+
+/*Bloco para conteúdo tamanho padrão*/
 .bloco-conteudo{
-  width:35%;
-  height:300px;
+  width:40%;
+  height:350px;
   float:left;
-  margin: 2% 2% 10% 10%;	
+  margin: 2% 2% 10% 2%;	
+  padding-left: 5%;
 }
 
 /*Imagem de fundo entre as seções*/
@@ -198,29 +210,12 @@ div#about {
 
 /*--------------LUCAS----------------*/
 /*BIOGRAFIA*/
-#lucasImagem{
-	width:46%;
-	height:60%;
-  	float:left;	
-	background-image: url('../_img/lucas.jpeg');
-	background-size: cover;
-	background-position: center;
-	margin: 2% 2% 0 2%;
-	right: 0;
-}
-
-#lucasConteudo{
-	width: 46%;
-	height: 60%;
-	float: left;
-	margin: 2% 2% 0 2%;
-}
 
 div#backLucas {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align: center;
-	background: white url(../_img/pocket.jpg) center no-repeat fixed;
+	background: white url(../_img/img_fundo5.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 
