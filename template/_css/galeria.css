@@ -1,39 +1,40 @@
 body{
-    margin: 6px;
-    background-color:rgba(0, 0, 92,1);
-    background-image: url(_img/img_fundo.jpg);
+    margin: 0px;
+    background-color:darkslategrey;
+    background-image: url(../_img/_background/img_fundo.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #ffffff;
-    overflow: hidden;
+    overflow: hidden; 
 
- 
     }
 
 #rolagem{
-  /*  overflow-y: hidden;
-    overflow-x: hidden; */
+
     margin-bottom: 10px;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     text-align: center;
-    overflow: hidden;
+
+}
+
+#rolagem:hover{
+    background-color: rgba(0,0,0,0.83);
+    transition: 0.8s;
 }
 
 .foto{
     width: 40%;
     height: 40%;
     overflow: hidden;
-    border-radius: 100px;
+    border-radius: 16%;
     padding: 6%;    
     
 }
  
-
-
 .caixa-miniatura{
     border: 1px solid #999;
     width: 5%;
@@ -71,6 +72,21 @@ body{
     padding-top: 5px;
     padding-bottom: 7px;
     background-color: rgba(200,200,200,0.8);
+}
+
+#botao{
+    background-color: #ffffff;
+    padding: 5px;
+    color: #757575;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    border-radius: 15%;
+}
+
+#botao:hover{
+    transition: 0.5s;
+    background-color: rgb(84, 84, 85);
+    color: aliceblue;
 }
 
 #vazio{
