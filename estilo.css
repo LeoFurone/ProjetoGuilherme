@@ -33,3 +33,58 @@ h1 {
     color: white;
     font-family: "Century Gothic", , ;
 }
+
+
+
+/*rodape*/
+footer{
+	height: 326px;
+	background-color: rgb(12, 12, 12);
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.rod {
+	display: block;
+	float: left;
+}
+
+	.rod p{
+		color: white;
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+	}
+
+	p#titulo{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	p#info{
+		padding-top: 6px;
+		padding-bottom: 6px;
+	}
+
+#r1 {
+	padding-right: 5%;
+	margin-left: 4.96%;
+	margin-top: 4.7%;
+}
+
+#r2 {
+	margin-top: 5.5%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#r3 {
+	margin-top: 5.2%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#r4 {
+	margin-top: 4.7%;
+	padding-left: 5%;
+}
