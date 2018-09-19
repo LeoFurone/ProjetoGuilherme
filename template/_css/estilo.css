@@ -1,15 +1,6 @@
-/*----------------GERAL---------------*/
-@font-face {
-	font-family: 'cs_regular';
-	font-style: normal;
-	font-weight: normal;
-	src: url(../_font/cs_regular.ttf);
-}
-
 body, html {
-	background:white;
+	background: white;
 	background-size: 100%;
-	/*font-family: 'Libre Barcode 128 Text', cursive;*/
 	font-family: Arial;
 	font-weight: 300;
 	width: 100% !important;
@@ -19,8 +10,19 @@ body, html {
 	border: 0;
 }
 
+a {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: #A4A4A4;
+	text-decoration: none;
+}
+
+a:hover{
+	transition-duration: 0.8s;
+}
+
 header{
-	background-image: url('../_img/img_fundo5.jpg');
+	background-image: url('../_img/_background/img_fundo5.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -32,195 +34,161 @@ header{
 	width: 100%;
 }
 
-
-a {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 20px;
-	color: rgb(116, 116, 116);
-	text-decoration: none;
+.intro-text a{
+	color: white;
+	background-color: #1C1C1C;
 }
 
+.intro-text a:hover{
+	background-color: #000;
+}
 
-	a#descobrir{
-		padding: 2%;
-		background-color: rgb(12, 12, 12);
-		font-size: 20px;
-	}
-
-	a:hover {
-		color: white;
-		transition: 0.4s;
-	}
+a#descobrir{
+	padding: 2%;
+	font-size: 20px;
+}
 
 .search {
 	padding-top: 5%;
 }
 
-/*----------------NAV---------------*/
-
-
 .navbar{
 	width: 100%;
 	height: 35px;
-	background-color: #1C1C1C;
 	font-family: 'Ubuntu', sans-serif;
 	position: fixed;
-	opacity: .8;
+	background-color: #1C1C1C;
+	/*opacity: 0.8;*/
 }
-	
-	.navbar a:hover{
-		color: white;
-	}
 
-	.navbar ul{
-		list-style: none;
-		position: relative;
-		margin: 0;
-		padding: 0;
-		float: right;
-	}
+.navbar a:hover{
+	color: blue;
+}
 
-	.navbar ul li{
-			width: 130px;
-			float: left;
-		
-			text-align: center;
-	}
+.navbar ul{
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
 
-	.navbar a{
-			padding: 5px;
-			display: block;
-			text-decoration: none;
-			text-align: center;
-			background-color: #1C1C1C;
-			color: white;
-	}		
+.navbar ul li{
+	width: 130px;
+	float: left;
+	text-align: center;
+	background-color: #1C1C1C;
+}
 
-	.navbar ul ul{
-		visibility: hidden;
-		position: absolute;
-	}
+.navbar a{
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	/*background-color: #1C1C1C;*/
+	color: white;
+}		
 
-	.navbar ul li:hover ul{
-		visibility: visible;
-	}
+.navbar ul ul{
+	visibility: hidden;
+	position: absolute;
+}
 
-	.navbar a:hover{
-		background-color: #1C1C1C;
-		color: #BBBBBB;
-	}
+.navbar ul li:hover ul{
+	visibility: visible;
+}
 
-	.navbar ul li li{
-		float: none;
-	}
+.navbar ul li li{
+	float: none;
+}
 
-	ul#logo{
-		float: left;
-	}
+ul#logo-navbar{
+	float: left;
+	margin-left: 2%;
+}
 
+a#logo{
+	font-family: 'Luckiest Guy', cursive;
+}
 
-/*----------------TOP---------------*/
 .top {
 	padding-top: 15%;	
 	text-align: center;
 }
 
-	.top h1 {
-		color: #fff;
-		font-size: 130px;
-		/*font-weight: 700;*/
-		margin: 5% auto 3% auto;
-		font-family: 'Luckiest Guy', cursive;
-	}
+.intro-text h1 {
+	color: white;
+	font-size: 130px;
+	margin: 5% auto 3% auto;
+	font-family: 'Luckiest Guy', cursive;
+}
 
-	.top p {
-		font-family: 'Ubuntu', sans-serif;
-		color: #fff;
-		font-size: 32px;
-		font-weight: 300;
-		margin-top: 10px;
-		margin-bottom: 40px;
-	}
+.intro-text p {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
 
-/*----------------Configurações MID---------------*/
 .mid {
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
-	/*padding-left: 2%;
-	padding-top: 15%;
-	padding-bottom: 15%;*/
 	width:100%;
-	/*height:100%;*/
 }
 
-	.mid h2 {
-		font-size: 30px;
-		color: white;
-		}
+.mid h2 {
+	font-size: 30px;
+	color: white;
+}
 
-	.mid p {
-		font-size: 16px;
-		text-align: justify;
-	}
+.mid p {
+	font-size: 16px;
+	text-align: justify;
+}
 
-	.mid hr{
-		height: 2px;
-		width: 70px;
-		text-align: center;
-		position: relative;
-		border: 0;
-		background: blue;
-		margin-bottom: 40px;
-	}
+.mid hr{
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	border: 0;
+	background: blue;
+	margin-bottom: 40px;
+}
 
 /*Bloco para conteúdo tamanho padrão*/
 .bloco-conteudo{
-  width:40%;
-  height:350px;
-  float:left;
-  margin: 2% 2% 10% 2%;	
-  padding-left: 5%;
+	width:40%;
+	height:350px;
+	float:left;
+	margin: 2% 2% 10% 2%;	
+	padding-left: 5%;
 }
-
+.bloco-conteudo-about{
+	margin-top: 15%;
+}
 /*Imagem de fundo entre as seções*/
-div#back {
+div#background-section {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align: center;
-	background: white url(../_img/fundo_si.jpg) center no-repeat fixed;
+	background: white url(../_img/_background/fundo_si.jpg) center no-repeat fixed;
 	background-size: cover;
 }
 
-img#mid{
-	padding-top: 150px;
-	padding-right: 100px;
-	float: right;
-	height:80%; 
-	width:30%;
-}
-
-/*-----------------------------SEÇÕES-----------------------------*/
-
-/*-------------- FILIPE----------------*/
-/*Seção Objetivos*/
-#imagemObjetivos{
-	width:30%;
-	height:300px;
-	float:left;	
-	background-image: url('../_img/metas-e-objetivos.png');
+div#imgAbout{
+	background-image: url(../_img/_body/metas-e-objetivos.png);
 	background-size: cover;
-	background-position: center;
-	margin-right: 10%;
-	margin-left: 10%;
-  }
-
-  #conteudoObjetivos{
-	width:45%;
-	height:400px;
-	float:left;	
-	
-  }
-
+	/*width: 520px;
+	height: 340px;*/
+	width: 100%;
+	height: 100%;
+	margin-left: 1%;
+	margin-top: 15%;
+	float: left;
+}
 
 div#about {
 	padding-top: 5%;
@@ -232,56 +200,53 @@ div#about {
 }
 
 div#imgFiber{
-	background-image: url(../_img/fiber.jpg);
+	background-image: url(../_img/_perfil/fiber.jpg);
 	background-size: cover;
 	width: 120px;
 	height: 120px;
 	margin-right: 3%;
 	float: left;
 }
-
-/*--------------LUCAS----------------*/
-/*BIOGRAFIA*/
-
- div#backLucas {
-	padding-top: 2%;
-	padding-bottom: 2%;
-	text-align: center;
-	background: white url(../_img/img_fundo5.jpg) center no-repeat fixed;
-	background-size: cover;
-} 
 
 div#imgLucas{
-	background-image: url(../_img/luc.jpg);
+	background-image: url(../_img/_perfil/luc.jpg);
 	background-size: cover;
 	width: 120px;
 	height: 120px;
+	/*width: 23%;
+	height: 35%;*/
 	margin-right: 3%;
 	float: left;
 }
 
-
-/*--------------LEONARDO----------------*/
-div#imgLeo{
-	background-image: url(../_img/furone.jpg);
-	background-size: cover;
-	width: 120px;
-	height: 120px;
-	margin-right: 3%;
-	float: left;
+div#aboutConteiner {
+	height: 620px;
 }
 
 div#def {
 	height: 700px;
 }
+/*--------------LEONARDO----------------*/
+div#imgLeo{
+	background-image: url(../_img/_perfil/furone.jpg);
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	/*width: 23%;
+	height: 35%;*/
+	margin-right: 3%;
+	float: left;
+}
 
 /*--------------HENRIQUE----------------*/
 
 div#imgHen{
-	background-image: url(../_img/hen.jpg);
+	background-image: url(../_img/_perfil/hen.jpg);
 	background-size: cover;
 	width: 120px;
 	height: 120px;
+	/*width: 23%;
+	height: 35%;*/
 	margin-right: 3%;
 	float: left;
 }
@@ -290,10 +255,12 @@ div#imgHen{
 /*--------------RODRIGO----------------*/
 
 div#imgRodrigo{
-	background-image: url(../_img/bill.jpg);
+	background-image: url(../_img/_perfil/bill.jpg);
 	background-size: cover;
 	width: 120px;
 	height: 120px;
+	/*width: 23%;
+	height: 35%;*/
 	margin-right: 3%;
 	float: left;
 }
@@ -314,27 +281,27 @@ footer{
 	left:12.14%;
 }
 
-.rod {
+.rod div{
 	display: block;
 	float: left;
 }
 
-	.rod p{
-		color: white;
-		margin: 0px;
-		padding: 0px;
-		border: 0px;
-	}
+.rod p{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
 
-	p#titulo{
-		font-size: 25px;
-		font-weight: bold;
-	}
+p#titulo{
+	font-size: 25px;
+	font-weight: bold;
+}
 
-	p#info{
-		padding-top: 6px;
-		padding-bottom: 6px;
-	}
+p#info{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
 
 #r1 {
 	margin-right: 35px;
