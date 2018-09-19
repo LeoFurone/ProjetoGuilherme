@@ -231,14 +231,7 @@ div#about {
 	height:50%;
 }
 
-div#imgFiber{
-	background-image: url(../_img/fiber.jpg);
-	background-size: cover;
-	width: 120px;
-	height: 120px;
-	margin-right: 3%;
-	float: left;
-}
+
 
 /*--------------LUCAS----------------*/
 /*BIOGRAFIA*/
@@ -271,7 +264,7 @@ div#imgLeo{
 	float: left;
 }
 
-div#def {
+div#Leonardo {
 	height: 700px;
 }
 
@@ -305,13 +298,6 @@ footer{
 	background-color: rgb(12, 12, 12);
 	text-align: left;
 	font-family: 'Montserrat', sans-serif;
-	position: relative;
-}
-
-#rodape {
-	position: absolute;
-	top:63px;
-	left:12.14%;
 }
 
 .rod {
@@ -337,19 +323,24 @@ footer{
 	}
 
 #r1 {
-	margin-right: 35px;
+	padding-right: 5%;
+	margin-left: 4.96%;
+	margin-top: 4.7%;
 }
 
 #r2 {
-	margin-right: 35px;
-	margin-left: 35px;
+	margin-top: 5.5%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #r3 {
-	margin-right: 35px;
-	margin-left: 35px;
+	margin-top: 5.2%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #r4 {
-	margin-left: 35px;
+	margin-top: 4.7%;
+	padding-left: 5%;
 }
