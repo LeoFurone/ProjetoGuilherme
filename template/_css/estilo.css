@@ -43,13 +43,13 @@ a {
 
 	a#descobrir{
 		padding: 2%;
-		background-color: #1C1C1C;
+		background-color: rgb(12, 12, 12);
 		font-size: 20px;
 	}
 
 	a:hover {
-		color: blue;
-		transition: 0.8s;
+		color: white;
+		transition: 0.4s;
 	}
 
 .search {
@@ -107,7 +107,7 @@ a {
 
 	.navbar a:hover{
 		background-color: #1C1C1C;
-		color: blue;
+		color: #BBBBBB;
 	}
 
 	.navbar ul li li{
@@ -127,10 +127,10 @@ a {
 
 	.top h1 {
 		color: #fff;
-		font-size: 6em;
-		font-weight: 700;
+		font-size: 130px;
+		/*font-weight: 700;*/
 		margin: 5% auto 3% auto;
-		font-family: 'cs_regular';
+		font-family: 'Luckiest Guy', cursive;
 	}
 
 	.top p {
@@ -255,7 +255,18 @@ div#imgLucas{
 
 
 /*--------------LEONARDO----------------*/
+div#imgLeo{
+	background-image: url(../_img/furone.jpg);
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	margin-right: 3%;
+	float: left;
+}
 
+div#Leonardo {
+	height: 700px;
+}
 
 /*--------------HENRIQUE----------------*/
 
