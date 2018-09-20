@@ -334,57 +334,23 @@ div#imgRodrigo{
 }
 
 /*-----------------------------RODAPÉ-----------------------------*/
-footer{
-	font-family: 'Ubuntu', sans-serif;
-	height: 326px;
-	background-color: rgb(12, 12, 12);
-	text-align: left;
-	font-family: 'Montserrat', sans-serif;
-	position: relative;
-}
-
-#rodape {
+div#foot{
 	position: absolute;
-	top:63px;
-	left:12.14%;
+	background-color: black;
+	width: 100%;
+	height: 40%;
+	background-size: cover;
 }
 
-.rod div{
-	display: block;
-	float: left;
+#foot img{
+	padding: 2%;
 }
 
-.rod p{
+table#foot img{
+	width: 72%;
+	height: 100%;
+}
+#foot p {
 	color: white;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
 }
 
-p#titulo{
-	font-size: 25px;
-	font-weight: bold;
-}
-
-p#info{
-	padding-top: 6px;
-	padding-bottom: 6px;
-}
-
-#r1 {
-	margin-right: 35px;
-}
-
-#r2 {
-	margin-right: 35px;
-	margin-left: 35px;
-}
-
-#r3 {
-	margin-right: 35px;
-	margin-left: 35px;
-}
-
-#r4 {
-	margin-left: 35px;
-}
