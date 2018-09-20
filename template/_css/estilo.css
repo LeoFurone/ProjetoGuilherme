@@ -47,10 +47,7 @@ table{
 	padding: 0;
 	background: url(../_img/_background/img_fundo5.jpg) no-repeat center center;
 	background-color: white;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
 	background-size: cover;
-	-o-background-size: cover;
 }
 .intro-text a{
 	color: white;
@@ -178,6 +175,7 @@ header .intro-text {
 	text-align: justify;
 }
 
+
 .mid hr{
 	height: 2px;
 	width: 70px;
@@ -198,6 +196,12 @@ header .intro-text {
 .bloco-conteudo-about{
 	margin-top: 15%;
 }
+
+.bloco-conteudo p ul li{
+	font-size: 16px;
+	text-align: justify;
+}
+
 /*Imagem de fundo entre as seções*/
 div#background-section {
 	padding-top: 2%;
