@@ -203,7 +203,7 @@ header .intro-text {
 }
 
 /*Imagem de fundo entre as seções*/
-div#background-section {
+div.background-section {
 	padding-top: 2%;
 	padding-bottom: 2%;
 	text-align: center;
@@ -254,6 +254,10 @@ div#grupo {
 	float: left;
 }
 
+div#defFiber {
+	height: 700px;
+}
+
 div#imgFiber{
 	background-image: url(../_img/_perfil/fiber.jpg);
 	background-size: cover;
@@ -262,6 +266,10 @@ div#imgFiber{
 	margin-right: 3%;
 	float: left;
 	border: 5px solid black;
+}
+
+div#defLucas {
+	height: 700px;
 }
 
 div#imgLucas{
@@ -291,7 +299,19 @@ div#grupoConteiner {
 div#def {
 	height: 700px;
 }
+
+div#defMidia {
+	height: 700px;
+}
+
+div#defConceitos {
+	height: 700px;
+}
 /*--------------LEONARDO----------------*/
+div#defLeo {
+	height: 700px;
+}
+
 div#imgLeo{
 	background-image: url(../_img/_perfil/furone.jpg);
 	background-size: cover;
@@ -305,7 +325,9 @@ div#imgLeo{
 }
 
 /*--------------HENRIQUE----------------*/
-
+div#defHenry {
+	height: 700px;
+}
 div#imgHen{
 	background-image: url(../_img/_perfil/hen.jpg);
 	background-size: cover;
@@ -320,7 +342,9 @@ div#imgHen{
 
 
 /*--------------RODRIGO----------------*/
-
+div#defRodrigo {
+	height: 700px;
+}
 div#imgRodrigo{
 	background-image: url(../_img/_perfil/bill.jpg);
 	background-size: cover;
